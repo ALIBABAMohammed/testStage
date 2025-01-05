@@ -1,7 +1,7 @@
 let progress = document.getElementById('progress');
 let prev = document.getElementById('prev');
 let next = document.getElementById('next');
-let numbers = document.querySelectorAll('.circle');
+let numbers = document.querySelectorAll('.number');
 
 let currentNumber = 1;
 next.addEventListener('click', () => {
@@ -43,4 +43,3 @@ function update() {
     }
 
 } ;
-
